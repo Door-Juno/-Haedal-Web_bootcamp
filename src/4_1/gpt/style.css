@@ -21,14 +21,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #cccccc;
+    color: rgb(255, 255, 175);
     border-bottom: 1px solid #5c5c66;
     height: 45px;
 }
 
 .header h3 {
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 
@@ -45,10 +45,13 @@ body {
     font-size: 25px;
     font-weight: 600;
     transition: all 0.3s ease;
+    opacity: 0.6;
 }
 
 .info a:hover{
-    color: rgb(221, 221, 0);
+    color: rgb(221, 150, 0);
+    text-decoration: underline;
+    opacity: 1;
 }
 
 .input-container{
